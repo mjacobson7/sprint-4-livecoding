@@ -1,0 +1,20 @@
+.button {
+	padding: 15px 40px;
+	font-size: 20px;
+	border: 1px solid #fff;
+	border-radius: 50px;
+	display: inline-block;
+	transition: background-color 0.3s, transform 0.2s;
+	cursor: pointer;
+	user-select: none;
+	margin: 0 10px;
+}
+
+.button:hover {
+	background-color: #4c4b4b;
+}
+
+.button:active {
+	background-color: #838282;
+	transform: scale(95%);
+}
